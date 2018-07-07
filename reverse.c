@@ -9,7 +9,6 @@ int main()
     printf("ENTER THE STRING");
     scanf("%s",a);
     int n=strlen(a);
-    //printf("%d",n);
     for(i=0;i<n;i++)
     {
         b[(n-1)-i]=a[i];
@@ -17,7 +16,5 @@ int main()
     printf("\n");
     for(i=0;i<n;i++)
     printf("%c",b[i]);
-    int m=strlen(b);
-   // printf("%d",m);
     return 0;
 }
